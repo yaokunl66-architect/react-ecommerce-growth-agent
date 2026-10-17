@@ -1,0 +1,10 @@
+# ReAct 电商增长 AI Agent —— 依赖清单
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+
+# RAG 语义检索（核心，ChromaDB 向量数据库）
+chromadb>=0.5
+
+# 可选：接入真实大模型（LLMReactBrain，DeepSeek / OpenAI 兼容）
+# langchain-openai>=0.1
